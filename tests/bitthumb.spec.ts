@@ -9,9 +9,8 @@ test.describe('빗썸 테스트', () => {
     await page.goto('https://m.bithumb.com/react/main');
     // 빗썸 타이틀 요소 확인
     await expect(page).toHaveTitle(/거래소 | 빗썸/);
-  });
-  test('수수료 무료 선택', async ({ page }) => {
-     // 상단 타이틀 '수수료 무료' 선택
+
+    // 상단 타이틀 '수수료 무료' 선택
     await page.getByRole('button', {name : '수수료 무료'}).click();
     // 지정한 코인 찾기 및 상세 페이지 진입
     await clickCoinByName(page, '앵커');

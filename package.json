@@ -1,0 +1,26 @@
+{
+  "name": "playwright-ts-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "mobile": "npx playwright codegen --device='Galaxy S24' https://m.bithumb.com/react/main",
+    "android": "node connect-android.js",
+    "report:generate": "allure generate allure-results --clean -o allure-report",
+    "report:open": "allure open allure-report",
+    "test:allure": "npx playwright test && allure generate allure-results --clean -o allure-report && allure open allure-report"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "allure-playwright": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

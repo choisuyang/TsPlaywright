@@ -1,0 +1,30 @@
+# node
+node_modules/
+
+# env
+.env
+.env.*
+!.env.example
+
+# Playwright / test artifacts
+test-results/
+report/
+playwright-report/
+blob-report/
+
+# Allure
+allure-results/
+allure-report/
+
+# storage (auth, session 등)
+storage/
+# 또는 특정 파일만
+# storage/session.json
+
+# logs
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

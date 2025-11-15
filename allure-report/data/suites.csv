@@ -1,2 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6322","수수료 무료 선택","","Sun Nov 09 15:04:59 KST 2025","failed","Sun Nov 09 15:05:05 KST 2025","빗썸 테스트","bitthumb.spec.ts","",""
+"","33088","빗썸 페이지 진입 및 타이틀 확인","","Sat Nov 15 13:08:16 KST 2025","broken","Sat Nov 15 13:08:49 KST 2025","빗썸 테스트","bitthumb.spec.ts","",""
+"","32922","오늘의집 자동화 테스트","","Sat Nov 15 17:40:52 KST 2025","broken","Sat Nov 15 17:41:25 KST 2025","오늘의 집 테스트","ohou.spec.ts","",""
 "","21084","시작가 예약","","Sun Nov 09 14:55:14 KST 2025","passed","Sun Nov 09 14:55:35 KST 2025","","bitthumb.spec.ts","",""

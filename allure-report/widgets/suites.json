@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"a19b7140586fa207bf6a72fcedc69c2d","name":"bitthumb.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":2,"items":[{"uid":"a19b7140586fa207bf6a72fcedc69c2d","name":"bitthumb.spec.ts","statistic":{"failed":1,"broken":1,"skipped":0,"passed":1,"unknown":0,"total":3}},{"uid":"32abcb0a12365c030805ad406ed4d8b0","name":"ohou.spec.ts","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}

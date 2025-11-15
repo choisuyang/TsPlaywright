@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  timeout: 100000,
   testDir: './tests',
   reporter: [
     ['html', { outputFolder: 'report' }],
@@ -8,6 +9,7 @@ export default defineConfig({
     ['allure-playwright']   // Allure 결과 생성
   ],
   use: {
+    // storageState: 'storage/session.json',
     screenshot: 'only-on-failure',  // 실패 시 스크린샷 자동 첨부
     trace: 'retain-on-failure',     // 실패 시 trace 첨부
     video: 'retain-on-failure',     // 실패 시 video 첨부

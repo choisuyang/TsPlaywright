@@ -9,8 +9,8 @@
     "android": "node connect-android.js",
     "report:generate": "allure generate allure-results --clean -o allure-report",
     "report:open": "allure open allure-report",
-    "test:allure": "npx playwright test && allure generate allure-results --clean -o allure-report && allure open allure-report"
-
+    "test:allure": "npx playwright test && allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "qa-server" : "ts-node utils/qaServer.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +18,15 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
-    "@types/node": "^24.10.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
     "allure-playwright": "^3.4.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
